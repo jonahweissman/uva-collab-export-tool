@@ -10,6 +10,8 @@ TODO: make everything happen automatically and seamlessly
 
 https://pypi.org/project/webdavclient3/
 
+https://collab.its.virginia.edu/direct/site.json (paginated)
+
 
 ## With admin access
 
