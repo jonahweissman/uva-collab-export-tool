@@ -10,7 +10,7 @@ You can mount the Resources section as a local folder using WebDAV. You will nee
 ### With my script
 
 First configure authentication. Set each environment variable in a new file named `.env`:
-- `COOKIE`: Open Collab, go the developer tools, the network tab, the request headers, and grab the cookie header.
+- `COOKIE`: Open Collab, go the developer tools, the network tab, the request headers, and grab the cookie header. (You only really need JSESSIONID)
 - `COMPUTING_ID`: your UVA computing ID
 - `WEBDAV_TOKEN`: Go the resources tab of any Collab site. Go to "Transfer Multiple Files". Grab the token from step 2
 
@@ -28,3 +28,5 @@ https://longsight.screenstepslive.com/s/sakai_help/m/59023/l/556753-how-do-i-exp
 # Contributing
 
 If you know a better way to do this, please let me know. Feel free to open an issue if this is unclear.
+
+Checkout out the Collab API docs at https://collab.its.virginia.edu/direct/describe
